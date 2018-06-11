@@ -1,0 +1,5 @@
+#title
+print ("Pig Latin")
+
+#original word input 
+nter a word: ")original = raw_input("E
