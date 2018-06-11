@@ -1,5 +1,5 @@
 #string prints
-print "Hey, you!"
+print ("Hey, you!")
 
 print ("Hello!")
 
