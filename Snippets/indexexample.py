@@ -1,8 +1,8 @@
 #simple index operations
-fifth_letter = "hsIODNFISDJOAI"[4]
+fifth_letter = "hsIODNFISDJOA"[4]
 print (fifth_letter)
 
-letters = "hsIODNFISDJOAI"
+letters = "hsIODNFISDJOA"
 print (len(letters))
 print ((letters).lower())
 print ((letters).upper())
