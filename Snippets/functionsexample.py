@@ -6,7 +6,7 @@ breakfast()
 
 #calling functions
 def square(n):
-    squared = n ** 2
-    print "%d squared is %d" % (n, squared)
+    squared = (n ** 2)
+    print ("%d squared is %d" % (n, squared))
     return squared
 square(6)
