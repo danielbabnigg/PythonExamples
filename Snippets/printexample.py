@@ -10,5 +10,5 @@ solution = "The product was " + str(ans)
 print (solution)
 
 #variable prints
-variable1 = hi
+variable1 = "hi"
 print (variable1)
