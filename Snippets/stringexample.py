@@ -12,4 +12,4 @@ print ("There\'s a snake!")
 name = "Daniel"
 age = "15"
 color = "orange"
-print ("Hello, my name% is %s and I am %s years old, my favorite color is %s." % (name,age,color))
+print ("Hello, my name is %s and I am %s years old, my favorite color is %s." % (name,age,color))
