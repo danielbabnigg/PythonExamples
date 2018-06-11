@@ -4,5 +4,5 @@ print (fifth_letter)
 
 letters = "hsIODNFISDJOAI"
 print (len(letters))
-print (lower(letters))
-print (upper(letters))
+print ((letters).lower())
+print ((letters).upper())
