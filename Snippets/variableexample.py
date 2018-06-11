@@ -18,6 +18,8 @@ quotient = 6/4
 print (quotient)
 quotientfloat = 6./4
 print (quotientfloat)
+exponent = 3**2
+print (exponent)
 remainder = 125 % 6
 print (remainder)
 
