@@ -10,3 +10,6 @@ print (current_month)
 print (current_day)
 
 print ("%02d/%02d/%04d" % (now.day, now.month, now.year))
+
+print ("%02d:%02d:%02d" % (now.hour, now.minute, now.second))
+
