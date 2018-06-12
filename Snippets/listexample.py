@@ -24,3 +24,8 @@ letters = ["a", "b", "c", "d", "e"]
 slice = letters[0:3]
 print (letters)
 print (slice)
+
+animals = "catdogfrog"
+cat = animals[:3]
+dog = animals[3:6]
+frog = animals[6:]
