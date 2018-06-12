@@ -10,3 +10,9 @@ print ((letters).upper())
 #math index operations
 maximum = max(24, 7, 89, 91.32)
 print (maximum)
+
+minimum = min(24, 7, 89, 91.32)
+print (minimum)
+
+absolute = -24
+print (absolute)
