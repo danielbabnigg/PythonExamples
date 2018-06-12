@@ -18,3 +18,9 @@ box.append("cookies")
 #length of lists
 bag = ["towel", "phone", "paper"]
 print (len(bag))
+
+#portions of lists
+letters = ["a", "b", "c", "d", "e"]
+slice = letters[0:3]
+print (letters)
+print (slice)
