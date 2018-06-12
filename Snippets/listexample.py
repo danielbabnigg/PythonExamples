@@ -37,3 +37,7 @@ frog = animals[6:]
 #finding index numbers
 fish = ["betta", "tropical", "tetra", "guppie"]
 print fish.index("tropical")
+
+#sorting lists
+fruit = ["apple", "peach", "pineapple", "grape"]
+print (fruit)
