@@ -19,7 +19,7 @@ elif (element == "Lithium" or element == "Li"):
     d = "6.94"
 elif (element == "Beryllium" or element == "Be"):
     a = "Beryllium (Be)"
-    b = "Alkaline Earth Metals"
+    b = "Alkaline Earth Metal"
     c = "Solid"
     d = "9.0122"
 elif (element == "Boron" or element == "B"):
@@ -47,6 +47,101 @@ elif (element == "Fluorine" or element == "F"):
     b = "Nonmetal"
     c = "Gas"
     d = "18.998"
+elif (element == "Neon" or element == "Ne"):
+    a = "Neon (Ne)"
+    b = "Noble Gas"
+    c = "Gas"
+    d = "20.180"
+elif (element == "Sodium" or element == "Na"):
+    a = "Sodium (Na)"
+    b = "Alkali Metal"
+    c = "Solid"
+    d = "22.990"
+elif (element == "Magnesium" or element == "Mg"):
+    a = "Magnesium (Mg)"
+    b = "Alkaline Earth Metal"
+    c = "Gas"
+    d = "20.180"
+elif (element == "Neon" or element == "Ne"):
+    a = "Neon (Ne)"
+    b = "Noble Gas"
+    c = "Gas"
+    d = "20.180"
+elif (element == "Neon" or element == "Ne"):
+    a = "Neon (Ne)"
+    b = "Noble Gas"
+    c = "Gas"
+    d = "20.180"
+elif (element == "Neon" or element == "Ne"):
+    a = "Neon (Ne)"
+    b = "Noble Gas"
+    c = "Gas"
+    d = "20.180"
+elif (element == "Neon" or element == "Ne"):
+    a = "Neon (Ne)"
+    b = "Noble Gas"
+    c = "Gas"
+    d = "20.180"
+elif (element == "Neon" or element == "Ne"):
+    a = "Neon (Ne)"
+    b = "Noble Gas"
+    c = "Gas"
+    d = "20.180"
+elif (element == "Neon" or element == "Ne"):
+    a = "Neon (Ne)"
+    b = "Noble Gas"
+    c = "Gas"
+    d = "20.180"
+elif (element == "Neon" or element == "Ne"):
+    a = "Neon (Ne)"
+    b = "Noble Gas"
+    c = "Gas"
+    d = "20.180"
+elif (element == "Neon" or element == "Ne"):
+    a = "Neon (Ne)"
+    b = "Noble Gas"
+    c = "Gas"
+    d = "20.180"
+elif (element == "Neon" or element == "Ne"):
+    a = "Neon (Ne)"
+    b = "Noble Gas"
+    c = "Gas"
+    d = "20.180"
+elif (element == "Neon" or element == "Ne"):
+    a = "Neon (Ne)"
+    b = "Noble Gas"
+    c = "Gas"
+    d = "20.180"
+elif (element == "Neon" or element == "Ne"):
+    a = "Neon (Ne)"
+    b = "Noble Gas"
+    c = "Gas"
+    d = "20.180"
+elif (element == "Neon" or element == "Ne"):
+    a = "Neon (Ne)"
+    b = "Noble Gas"
+    c = "Gas"
+    d = "20.180"
+elif (element == "Neon" or element == "Ne"):
+    a = "Neon (Ne)"
+    b = "Noble Gas"
+    c = "Gas"
+    d = "20.180"
+elif (element == "Neon" or element == "Ne"):
+    a = "Neon (Ne)"
+    b = "Noble Gas"
+    c = "Gas"
+    d = "20.180"
+elif (element == "Neon" or element == "Ne"):
+    a = "Neon (Ne)"
+    b = "Noble Gas"
+    c = "Gas"
+    d = "20.180"
+elif (element == "Neon" or element == "Ne"):
+    a = "Neon (Ne)"
+    b = "Noble Gas"
+    c = "Gas"
+    d = "20.180"
 elif (element == "Neon" or element == "Ne"):
     a = "Neon (Ne)"
     b = "Noble Gas"
