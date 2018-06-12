@@ -1,5 +1,5 @@
 print ("Welcome, enter your element below.")
-element = (input("Element: "))
+element = (input())
 
 if (element == "Hydrogen" or element == "H"):
     a = "Hydrogen (H)"
