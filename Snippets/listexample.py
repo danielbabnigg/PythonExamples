@@ -14,6 +14,10 @@ zoo_animals[0] = "tiger"
 #adding to lists
 box = []
 box.append("cookies")
+print box
+
+box.insert(1, "cake")
+print box
 
 #length of lists
 bag = ["towel", "phone", "paper"]
@@ -29,3 +33,7 @@ animals = "catdogfrog"
 cat = animals[:3]
 dog = animals[3:6]
 frog = animals[6:]
+
+#finding index numbers
+fish = ["betta", "tropical", "tetra", "guppie"]
+print fish.index("tropical")
