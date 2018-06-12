@@ -10,3 +10,9 @@ def square(n):
     print ("%d squared is %d" % (n, squared))
     return squared
 square(6)
+
+#functions with multiple parameters
+def square(base, exponent):
+    solution = base ** exponent
+    print ("%s to the power of %s is equal to %s") % (base, exponent, solution)
+square(5, 2)
