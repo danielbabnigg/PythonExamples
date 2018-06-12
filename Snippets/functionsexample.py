@@ -16,3 +16,12 @@ def square(base, exponent):
     solution = base ** exponent
     print (("%d to the power of %d is equal to %d") % (base, exponent, solution))
 square(5, 2)
+
+#functions to other functions
+def cube(number):
+  return (number ** 3)
+def by_three(number):
+  if (number % 3 == 0):
+    return cube(number)
+  else:
+    return False
