@@ -14,5 +14,9 @@ print (maximum)
 minimum = min(24, 7, 89, 91.32)
 print (minimum)
 
-absolute = -24
+absolute = abs(-24)
 print (absolute)
+
+print (type(301))
+print (type(30.23))
+print (type("hi"))
