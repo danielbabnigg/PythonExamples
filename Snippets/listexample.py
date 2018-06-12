@@ -41,3 +41,10 @@ print fish.index("tropical")
 #sorting lists
 fruit = ["apple", "peach", "pineapple", "grape"]
 print (fruit)
+
+#dictionaries
+fruit = {"apple" : "red", "peach" : "orange", "pineapple" : "yellow", "grape" : "purple"}
+
+del fruit["apple"]
+
+fruit["peach"] = "light orange"
