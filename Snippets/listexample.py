@@ -19,6 +19,11 @@ print box
 box.insert(1, "cake")
 print box
 
+#deleting parts of lists
+hi = ["hey", "hi", "hello", "hiya"]
+hi.remove("hiya")
+print (hi)
+
 #length of lists
 bag = ["towel", "phone", "paper"]
 print (len(bag))
@@ -43,8 +48,10 @@ fruit = ["apple", "peach", "pineapple", "grape"]
 print (fruit)
 
 #dictionaries
-fruit = {"apple" : "red", "peach" : "orange", "pineapple" : "yellow", "grape" : "purple"}
+fruit1 = {"apple" : "red", "peach" : "orange", "pineapple" : "yellow", "grape" : "purple"}
 
 del fruit["apple"]
+print (fruit1)
 
 fruit["peach"] = "light orange"
+print (fruit1)
