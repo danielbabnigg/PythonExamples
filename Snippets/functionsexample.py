@@ -14,5 +14,5 @@ square(6)
 #functions with multiple parameters
 def square(base, exponent):
     solution = base ** exponent
-    print ("%s to the power of %s is equal to %s") % (base, exponent, solution)
+    print ("%d to the power of %d is equal to %d") % (base, exponent, solution)
 square(5, 2)
