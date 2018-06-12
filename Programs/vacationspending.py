@@ -26,4 +26,4 @@ spending_money = (input("How much extra?: "))
 def trip_cost(city, days, spending_money):
   return rental_car_cost(days) + hotel_cost(days - 1) + plane_ride_cost(city) + spending_money
 
-print (trip_cost("Los Angeles", 5, 600))
+print (trip_cost(str(city), int(days), int(spending_money)))
