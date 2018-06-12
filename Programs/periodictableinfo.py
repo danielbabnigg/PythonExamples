@@ -52,7 +52,7 @@ elif (element == "Neon" or element == "Ne"):
     c = "Gas"
     d = "20.180"
 else:
-    print ("Invalid Element"()
+    print ("Invalid Element"())
 print("""Element: %s
 Type: %s
 State of Matter: %s
