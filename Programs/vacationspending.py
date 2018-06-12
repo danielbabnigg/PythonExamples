@@ -26,4 +26,4 @@ a = (input("Enter you vacation spot: "))
 b = (input("How many days?: "))
 c = (input("Spending Money: "))
 
-print (trip_cost(a, b, c))
+print (trip_cost("a", int(b), int(c)))
