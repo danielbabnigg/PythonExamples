@@ -19,11 +19,11 @@ def rental_car_cost(days):
     cost -= 20
   return cost
 
+city = (input("What city?: "))
+days = (input("How many days?: "))
+spending_money = (input("How much extra?: "))
+
 def trip_cost(city, days, spending_money):
   return rental_car_cost(days) + hotel_cost(days - 1) + plane_ride_cost(city) + spending_money
 
-city = (input("Enter you vacation spot: "))
-days = (input("How many days?: "))
-spending_money = (input("Spending Money: "))
-
-print (trip_cost(int(city), int(days), int(spending_money)))
+print (trip_cost("Los Angeles", 5, 600))
