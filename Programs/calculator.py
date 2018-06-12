@@ -19,7 +19,7 @@ elif (operation == "division" or operation == "divide"):
     answer = (int(num1) / int(num2))
 elif (operation == "square"):
     num1 = (input("First number? "))
-    answer = (int(num1) ** 2
+    answer = (int(num1) ** 2)
 elif (operation == "power"):
     num1 = (input("First number? "))
     num2 = (input("To the power of what number? "))
