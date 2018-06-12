@@ -6,6 +6,7 @@ if (element == "Hydrogen" or element == "H")
     b = "Nonmetal"
     c = "Gas"
     d = "1.008"
+
 print("""Element: %s
 Type: %s
 State of Matter: %s
