@@ -1,4 +1,5 @@
-print ("Welcome, enter your element below.")
+print ("""
+Welcome, enter your element below.""")
 element = (input())
 
 if (element == "Hydrogen" or element == "H"):
@@ -53,7 +54,8 @@ elif (element == "Neon" or element == "Ne"):
     d = "20.180"
 else:
     print ("Invalid Element"())
-print("""Element: %s
+print("""
+Element: %s
 Type: %s
 State of Matter: %s
 Atomic Mass: %s""" % (a, b, c, d))
