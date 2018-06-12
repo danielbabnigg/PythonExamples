@@ -1,7 +1,7 @@
 print ("Welcome, enter your element below.")
 element = (input("Element: "))
 
-if (element == "Hydrogen" or element == "H")
+if (element == "Hydrogen" or element == "H"):
     a = "Hydrogen (H)"
     b = "Nonmetal"
     c = "Gas"
