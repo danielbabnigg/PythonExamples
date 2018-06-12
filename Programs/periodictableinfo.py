@@ -54,6 +54,7 @@ elif (element == "Neon" or element == "Ne"):
     d = "20.180"
 else:
     print ("Invalid Element"())
+
 print("""
 Element: %s
 Type: %s
