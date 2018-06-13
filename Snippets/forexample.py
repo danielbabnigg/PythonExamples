@@ -28,3 +28,5 @@ for food in prices:
     print ("amount: %s" % amount[food])
     total += (prices[food] * amount[food])
 print (total)
+
+#loops in functions
