@@ -72,6 +72,6 @@ names = ["Daniel", "Gyorgy", "Ana", "Lenka"]
 def join_names(words):
     result = ""
     for word in words:
-        result += words
+        result += word
     return result
 print (join_names(names))
