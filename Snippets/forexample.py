@@ -8,7 +8,7 @@ a = [1, 2, 5, 8, 9, 21, 32, 30, 12]
 for number in a:
     if number % 2 != 0:
         print (number)
-    print ("All odd numbers printed")
+print ("All odd numbers printed")
 
 #more complex loops
 total = 0
