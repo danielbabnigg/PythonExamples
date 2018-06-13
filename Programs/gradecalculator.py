@@ -140,20 +140,6 @@ if hwper + quper + teper == 100:
                 print ("Too many grades!")
         else:
             print ("Too many grades!")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     elif hwninp == 1:
         hwinp = (input("What is your first homework grade? "))
         hwave = int(hwinp)
