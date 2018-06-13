@@ -67,3 +67,11 @@ def function(x):
     return x
 y = [1, 2, 3, 4, 5]
 print (function(y))
+
+names = ["Daniel", "Gyorgy", "Ana", "Lenka"]
+def join_names(words):
+    result = ""
+    for word in words:
+        result += word
+    return result
+print (join_names(names))
