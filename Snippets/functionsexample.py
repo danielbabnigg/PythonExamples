@@ -60,3 +60,10 @@ def distance_from_zero(num):
   else:
     return "Nope"
 print (distance_from_zero(-5.234))
+
+#functions and lists
+def function(x):
+    x[0] = x[0] + 2
+    return x
+y = [1, 2, 3, 4, 5]
+print (function(y))
