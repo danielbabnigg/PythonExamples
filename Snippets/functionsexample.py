@@ -75,3 +75,19 @@ def join_names(words):
         result += word
     return result
 print (join_names(names))
+
+#functions used to join lists
+list1 = [1, 2, 3, 4]
+list2 = [2, 7, 3, 5, 8, 7]
+def join_lists(x, y):
+    return (x + y)
+print (join_lists(list1, list2))
+
+list3 = [[1, 2, 3], [4, 5, 6]]
+def flatten(lists):
+    end = []
+    for numbers in lists:
+        for number in numbers:
+            end.append(number)
+    return end
+print (flatten(list3))
