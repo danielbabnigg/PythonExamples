@@ -30,4 +30,3 @@ for i in range(5):
 print (fruits)
 
 #printing dictionaries neatly using "for"
-list = 
