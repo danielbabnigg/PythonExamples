@@ -28,3 +28,6 @@ for i in range(5):
     fruit = input("Tell me your favorite fruits: ")
     fruits.append(fruit)
 print (fruits)
+
+#printing dictionaries neatly using "for"
+list = 
