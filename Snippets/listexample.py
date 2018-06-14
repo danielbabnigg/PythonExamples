@@ -14,10 +14,10 @@ zoo_animals[0] = "tiger"
 #adding to lists
 box = []
 box.append("cookies")
-print box
+print (box)
 
 box.insert(1, "cake")
-print box
+print (box)
 
 #deleting parts of lists
 hi = ["hey", "hi", "hello", "hiya"]
@@ -41,7 +41,7 @@ frog = animals[6:]
 
 #finding index numbers
 fish = ["betta", "tropical", "tetra", "guppie"]
-print fish.index("tropical")
+print (fish.index("tropical"))
 
 #sorting lists
 fruit = ["apple", "peach", "pineapple", "grape"]
@@ -50,8 +50,8 @@ print (fruit)
 #dictionaries
 fruit1 = {"apple" : "red", "peach" : "orange", "pineapple" : "yellow", "grape" : "purple"}
 
-del fruit["apple"]
+del fruit1["apple"]
 print (fruit1)
 
-fruit["peach"] = "light orange"
+fruit1["peach"] = "light orange"
 print (fruit1)
