@@ -12,3 +12,8 @@ print (solution)
 #variable prints
 variable1 = "hi"
 print (variable1)
+
+#printing on same lines
+a = "hello"
+for i in a:
+    print (i, end = " ")
