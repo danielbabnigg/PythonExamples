@@ -15,14 +15,8 @@ while sum <= 100:
         cat1 = str(input("What is your category? "))
         catk1 = int(input("What percentage is it of your grade? "))
         categories[cat1] = catk1
-        grades[cat1] = []
+        grades[cat1] = [] 
         sum += catk1
 else:
     print ("Invalid Percentages! Start over.")
     sys.exit(0)
-
-print ("")
-print (categories)
-print (grades)
-print ([categories[1]])
-print (grades[1])
