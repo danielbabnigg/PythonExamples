@@ -31,3 +31,12 @@ print (bin(0b101 ^ 0b111))
 #not operator
 print (~1)
 print (~100)
+
+#masks in bit
+def checkbit2(input):
+    mask = 0b10
+    wanted = input & mask
+    if wanted > 1:
+        return "on"
+    else:
+        return "off"
