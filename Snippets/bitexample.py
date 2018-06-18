@@ -40,3 +40,19 @@ def checkbit2(input):
         return "on"
     else:
         return "off"
+
+first = 0b101010101010101
+maskfirst = 0b10
+print (bin(first | maskfirst))
+
+#using xor and masks to flip bits
+start = 0b1010101
+flipmask = 0b1111111
+print (bin(start ^ flipmask))
+
+#using shifts to flip
+def flipbit(bit, n):
+    bittoflip = 0b1 << (n-1)
+    result = bit ^ bittoflip
+    return bin(result)
+print (flipbit(0b11010001, 3))
