@@ -136,6 +136,10 @@ while turnsleft > 0:
             print ("")
             print ("Turns left:", (turnsleft - 1))
             turnsleft = turnsleft - 1
-    print_board(board)
+    if isdone == 0:
+        print_board(board)
+    elif isdone == 1:
+        board[randrow][randcol] = "•"
+        print_board(board)
 else:
     print ("Game Over, you lost!")
