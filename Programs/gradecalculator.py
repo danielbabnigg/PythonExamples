@@ -66,7 +66,7 @@ print ("Your average is", str(average) + "%")
 now = datetime.now()
 currentdate = ("%02d/%02d/%04d" % (now.month, now.day, now.year))
 currenttime = ("%02d:%02d" % (now.hour, now.minute))
-with open("gradereport.txt", "x") as file:
+with open("gradereport.txt", "w+") as file:
     file.write("Your grade report as of " + str(currentdate) + " at " + str(currenttime) + "\n\n")
     file.write("Categories: " + "\n")
     for i in categories:
