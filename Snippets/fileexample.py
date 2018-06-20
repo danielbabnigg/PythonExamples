@@ -27,6 +27,10 @@ print (my_file1.read())
 my_file1.close()
 
 #creating a new file and writing to it
-my_file2 = open("test1.txt", "x")
-my_file2.write("hi ok")
-my_file2.close()
+#my_file2 = open("test1.txt", "x")
+#my_file2.write("hi ok")
+#my_file2.close()
+
+#with as opening and editing files
+with open("test.txt", "r") as r:
+    print (r.read())
