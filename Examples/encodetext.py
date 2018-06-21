@@ -1,7 +1,5 @@
 import random
 from random import randint
-import string
-
 
 def encodetext(string):
     newstring = string[::-1]
