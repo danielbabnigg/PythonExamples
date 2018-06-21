@@ -18,7 +18,7 @@ print (my_file.readlines())
 my_file.close()
 print ("")
 
-#writing in a file
+#appending in a file
 my_file1 = open("test.txt", "a")
 my_file1.write("\n" + "understood")
 my_file1.close()
@@ -27,10 +27,12 @@ print (my_file1.read())
 my_file1.close()
 
 #creating a new file and writing to it
-#my_file2 = open("test1.txt", "x")
-#my_file2.write("hi ok")
-#my_file2.close()
+my_file2 = open("test1.txt", "w")
+my_file2.write("hi ok")
+my_file2.close()
 
 #with as opening and editing files
 with open("test.txt", "r") as r:
     print (r.read())
+
+#more file things
