@@ -1,13 +1,16 @@
-Your grade report as of 06/21/2018 at 12:11
+Your grade report as of 06/21/2018 at 12:37
 
 Categories: 
-Homework - 100.0% of total grade
+Homework - 10.0% of total grade
+Tests - 90.0% of total grade
 
 Grades: 
-Homework - 95.34, 92.88, 108.54, 87.45
+Homework - 100, 94, 97, 93, 95, 92
+Tests - 92, 94, 85, 83, 96
 
 Averages:
-Homework - 96.05%
+Homework - 95.17%
+Tests - 90.0%
 
-Your overall average is 96.05%
-Your letter grade is an A, excellent job!
+Your overall average is 90.52%
+You got the letter grade of an A-, great job!

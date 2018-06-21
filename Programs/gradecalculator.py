@@ -153,7 +153,7 @@ with open("gradereport.txt", "w+") as file:
         aoran = "a"
         gradeletter = "F"
         gradestring = "study harder next time!"
-    file.write("Your letter grade is " + str(aoran) + " " + str(gradeletter) + ", " + str(gradestring))
+    file.write("You got the letter grade of " + str(aoran) + " " + str(gradeletter) + ", " + str(gradestring))
 print ("")
 print ("A full grade report has been saved to this directory under gradereport.txt")
 
