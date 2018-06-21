@@ -1,14 +1,15 @@
 from random import randint
 
-def passgen(str, num, extra):
+def passgen(string, num):
     password = ""
-    randnum = randint(1, 3)
-    if randint == 1:
-        for i in range(0, len(str)):
-            print (i)
-    if randint == 2:
-        for i in range(0, len(str)):
-            print (i)
-    if randint == 3:
-        for i in range(0, len(str)):
-            print (i)
+    string = string.lower()
+    for i in range(0, len(string)):
+        randnum = randint(0,50)
+        if randnum > 25:
+            password += string[i].lower()
+        if randnum <= 25:
+            password += string[i].upper()
+    password += str(num)
+    print (password)
+
+passgen(input("What's a word you want in your password? "), input("And how about a number? "))
