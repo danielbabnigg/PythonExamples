@@ -1,5 +1,6 @@
 import sys
 from datetime import datetime
+import time
 
 print ("""
 Welcome!""")
@@ -24,6 +25,8 @@ while sum <= 100:
 else:
     print ("Invalid percentages!")
     sys.exit(0)
+
+time.sleep(1)
 
 print("")
 print ("Enter your percentage grades for each cateogry one by one, then type 'next' if you wish to go to the next cateogry.")
@@ -61,7 +64,11 @@ average = float(average * 0.01)
 average = round(average, 2)
 print ("")
 
+time.sleep(1)
+
 print ("Your average is", str(average) + "%")
+
+time.sleep(1)
 
 now = datetime.now()
 currentdate = ("%02d/%02d/%04d" % (now.month, now.day, now.year))
@@ -148,4 +155,6 @@ with open("gradereport.txt", "w+") as file:
         gradestring = "study harder next time!"
     file.write("Your letter grade is " + str(aoran) + " " + str(gradeletter) + ", " + str(gradestring))
 print ("")
-print ("Your full grade report has been saved to this directory under gradereport.txt")
+print ("A full grade report has been saved to this directory under gradereport.txt")
+
+time.sleep(1)
