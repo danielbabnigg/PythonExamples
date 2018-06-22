@@ -1,19 +1,19 @@
-Your grade report as of 06/22/2018 at 10:10
+Your grade report as of 06/22/2018 at 10:29
 
 Categories: 
-Homework - 33.33% of total grade
-Tests - 33.33% of total grade
-Quizzes - 33.33% of total grade
+Tests - 70.0% of total grade
+Projects - 20.0% of total grade
+Homework - 10.0% of total grade
 
 Grades: 
-Homework - 1000.0, 90.0, 10.0
-Tests - 100.0, 86.0, 84.0
-Quizzes - 100.0
+Tests - 98.0, 94.0, 92.0, 87.0
+Projects - 100.0, 93.0, 90.0, 89.0, 87.0, 82.0
+Homework - 100.0, 100.0, 10.0
 
 Averages:
-Homework - 366.67%
-Tests - 90.0%
-Quizzes - 100.0%
+Tests - 92.75%
+Projects - 90.17%
+Homework - 70.0%
 
-Your overall average is 185.54%
-You got the letter grade of an A+, excellent job!
+Your overall average is 89.96%
+You got the letter grade of a B+, great job!
