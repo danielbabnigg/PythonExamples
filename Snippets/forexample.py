@@ -28,3 +28,9 @@ for food in prices:
     print ("amount: %s" % amount[food])
     total += (prices[food] * amount[food])
 print (total)
+
+#another example with dictionaries
+dict1 = {1:2, 2:4, 3:6, 4:8, 5:10}
+for i in dict1:
+    print (i)
+    print (dict1[i])
