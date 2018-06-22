@@ -1,6 +1,7 @@
 import sys
 from datetime import datetime
 import time
+import operator
 
 print ("""
 Welcome!""")
@@ -12,7 +13,9 @@ sum = 0
 
 print ("")
 while True:
-    if sum == 100:
+    if round(sum, 0) == 100:
+        categories = sorted(categories.items(), key=operator.itemgetter(1), reverse = True)
+        categories = dict(categories)
         print ("")
         for i in categories:
             print (i, "-", categories[i])
@@ -25,6 +28,7 @@ while True:
     else:
         categoryentry = str(input("Category? "))
         if not categoryentry.strip():
+            print ("Please enter a valid category!")
             continue
         while True:
             try:
@@ -32,7 +36,9 @@ while True:
                 break
             except ValueError:
                 print ("Please enter a valid percentage!")
-        categories[categoryentry.strip()] = categoryentryp
+        categoryentry = categoryentry.strip()
+        categoryentryp = round(categoryentryp, 2)
+        categories[categoryentry] = categoryentryp
         sum += categoryentryp
 
 time.sleep(1)
@@ -182,7 +188,6 @@ with open("gradereport.txt", "w+") as file:
         gradeletter = "F"
         gradestring = "study harder next time!"
     file.write("You got the letter grade of " + str(aoran) + " " + str(gradeletter) + ", " + str(gradestring))
+
 print ("")
 print ("A full grade report has been saved to this directory under gradereport.txt")
-
-time.sleep(1)

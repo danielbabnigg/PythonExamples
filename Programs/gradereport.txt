@@ -1,16 +1,19 @@
-Your grade report as of 06/22/2018 at 09:28
+Your grade report as of 06/22/2018 at 10:10
 
 Categories: 
-Homework - 10.0% of total grade
-Tests - 90.0% of total grade
+Homework - 33.33% of total grade
+Tests - 33.33% of total grade
+Quizzes - 33.33% of total grade
 
 Grades: 
-Homework - 100.0, 90.0, 85.0, 72.0, 10.0
-Tests - 100.0, 98.0, 92.0, 84.0, 57.0, 18.0
+Homework - 1000.0, 90.0, 10.0
+Tests - 100.0, 86.0, 84.0
+Quizzes - 100.0
 
 Averages:
-Homework - 71.4%
-Tests - 74.83%
+Homework - 366.67%
+Tests - 90.0%
+Quizzes - 100.0%
 
-Your overall average is 74.49%
-You got the letter grade of a C, not bad!
+Your overall average is 185.54%
+You got the letter grade of an A+, excellent job!
