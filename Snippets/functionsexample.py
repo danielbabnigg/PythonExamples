@@ -12,10 +12,10 @@ def square(n):
 square(6)
 
 #functions with multiple parameters
-def square(base, exponent):
+def square1(base, exponent):
     solution = base ** exponent
     print (("%d to the power of %d is equal to %d") % (base, exponent, solution))
-square(5, 2)
+square1(5, 2)
 
 #functions to other functions
 def cube(number):
@@ -54,7 +54,7 @@ def shut_down(s):
 print (shut_down("no"))
 
 #example with if and or
-def distance_from_zero(num):
+def distance_from_zero1(num):
   if type(num) == int or type(num) == float:
     return abs(num)
   else:
