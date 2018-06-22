@@ -4,27 +4,36 @@ import time
 
 print ("""
 Welcome!""")
-print ("Please start off by entering your cateogires and their corresponding percentages.")
+print ("Please start off by entering your categories and their corresponding percentages.")
 
 categories = {}
 grades = {}
 sum = 0
 
 print ("")
-while sum <= 100:
+while True:
     if sum == 100:
         print ("")
         for i in categories:
             print (i, "-", categories[i])
         break
+    elif sum > 100:
+        print ("Invalid percentages, start over!")
+        categories.clear()
+        sum = 0
+        continue
     else:
         categoryentry = str(input("Category? "))
-        categoryentryp = float(input("Percentage of grade? "))
-        categories[categoryentry] = categoryentryp
+        if not categoryentry.strip():
+            continue
+        while True:
+            try:
+                categoryentryp = float(input("Percentage of total grade? "))
+                break
+            except ValueError:
+                print ("Please enter a valid percentage!")
+        categories[categoryentry.strip()] = categoryentryp
         sum += categoryentryp
-else:
-    print ("Invalid percentages!")
-    sys.exit(0)
 
 time.sleep(1)
 
@@ -32,15 +41,34 @@ print("")
 print ("Enter your percentage grades for each cateogry one by one, then type 'next' if you wish to go to the next cateogry.")
 for key in categories:
     print ("")
-    gradeentry = (input("What is a grade in %s? " % (key)))
+    while True:
+        try:
+            gradeentry = (input("What is a grade in %s? " % (key)))
+            if gradeentry != "next":
+                gradeentry = float(gradeentry)
+                break
+            elif gradeentry == "next":
+                print ("Please enter at least one grade!")
+        except ValueError:
+            print ("Enter a valid grade!")
     list1 = []
     grades[key] = list1
     list1.append(gradeentry)
     while gradeentry != "next":
-        gradeentry = (input("What is a grade in %s? " % (key)))
+        while True:
+            try:
+                gradeentry = (input("What is a grade in %s? " % (key)))
+                if gradeentry != "next":
+                    gradeentry = float(gradeentry)
+                    break
+                elif gradeentry == "next":
+                    break
+            except ValueError:
+                print ("Enter a valid grade!")
         list1.append(gradeentry)
     else:
         list1.remove("next")
+    list1.sort(reverse = True)
 print ("")
 for key in grades:
     printlistgrades = ""
