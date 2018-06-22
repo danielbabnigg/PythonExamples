@@ -1,4 +1,4 @@
-import sys
+#importing datetime, time, and operator
 from datetime import datetime
 import time
 import operator
@@ -7,10 +7,12 @@ print ("""
 Welcome!""")
 print ("Please start off by entering your categories and their corresponding percentages.")
 
+#creating empty lists to store categories and grades
 categories = {}
 grades = {}
 sum = 0
 
+#asks for category and corresponding percentage, then stops if the percentages add up to 100, storing them in the categories dictionary
 print ("")
 while True:
     if round(sum, 0) == 100:
@@ -43,6 +45,7 @@ while True:
 
 time.sleep(1)
 
+#asks for grades in each category, stores in the grades dictionary as lists
 print("")
 print ("Enter your percentage grades for each cateogry one by one, then type 'next' if you wish to go to the next cateogry.")
 for key in categories:
@@ -83,6 +86,7 @@ for key in grades:
     printlistgrades = printlistgrades[:-2]
     print (key, "-", printlistgrades)
 
+#calculates then prints the overall average of the numbers
 average = float(0)
 for key in categories:
     gradesincat = float(0)
@@ -104,6 +108,7 @@ print ("Your average is", str(average) + "%")
 
 time.sleep(1)
 
+#creates .txt file with report, including all data above
 now = datetime.now()
 currentdate = ("%02d/%02d/%04d" % (now.month, now.day, now.year))
 currenttime = ("%02d:%02d" % (now.hour, now.minute))
