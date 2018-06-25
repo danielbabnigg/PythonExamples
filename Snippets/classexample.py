@@ -92,3 +92,14 @@ new_fruit = Preservatives("grape", "purple", "small")
 new_fruit.display()
 new_fruit.fruitwaits()
 print (new_fruit.freshness)
+
+#another example
+class Tree(object):
+    def __init__(self, type, color, age):
+        self.type = type
+        self.color = color
+        self.age = age
+    def print(self):
+        print ("The " + self.color, self.type, "has a total of " + self.age, "rings.")
+mytree = Tree(input("What type is your tree? "), input("What color are its leaves? "), input("How old is it? "))
+mytree.print()
