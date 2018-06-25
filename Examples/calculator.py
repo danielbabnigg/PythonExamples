@@ -18,7 +18,8 @@ answer = 0
 for i in list:
     if index == 0:
         answer = i
-    add.add(i)
+    if i == "+":
+        answer += int(list[index + 1])
     if i == "-":
         answer -= int(list[index + 1])
     if i == "*":
