@@ -6,7 +6,19 @@ print ("""
 Welcome to hangmen! To start, guess a letter to see if it's in the goal word.\nIf you think you know the answer, then type out the full word.
 """)
 
-goalword = random.choice(("animal", "art", "aunt", "artwork", "area", "beach", "biggest", "best", "call", "calling", "cause", "dough", "dark", "dog", "elephant", "ears", "eyes", "funny", "fantastic", "great", "gears", "hello", "high", "hill", "italics", "integer", "jungle", "key", "kettle", "lower", "lame", "learn", "money", "much", "merry", "more", "none", "nope", "name", "near", "operation", "opera", "oars", "oat", "person", "perfect", "pear", "please", "query", "queue", "right", "rains", "rolls", "smart", "smear", "soap", "tears", "tall", "top", "tar", "under", "unlikely", "versus", "volleyball", "words", "works", "wear", "xylophone", "yes", "yams", "zebra"))
+goalword = random.choice(("animal", "art", "aunt", "artwork", "area", "ant", "all", "apple", "beach", "biggest", "best", "better", "bleed", 
+"bless", "believe", "bell", "boast", "call", "calling", "cause", "cough", "can", "chalk", "close", "cope", "dough", "dark", "dog", "demon", 
+"deadly", "death", "dolphin", "dial", "done", "dilligent", "elephant", "ears", "eyes", "enter", "entry", "ending", "ellipse", "eating", "epic",
+"funny", "fantastic", "fan", "fins", "forts", "full", "fill", "fairy", "great", "gears", "games", "goat", "going", "gaps", "gills", "gobble", 
+"hello", "high", "hill", "hopes", "hooked", "hole", "have", "halves", "hears", "italics", "integer", "ill", "identity", "input", "jungle", 
+"jiggle", "jury", "jumping", "jaws", "key", "kettle", "kiwi", "lower", "lame", "learn", "lean", "looking", "loops", "lull", "learnt", "lambs", 
+"money", "much", "merry", "more", "married", "mapping", "meet", "malls", "month", "none", "nope", "name", "near", "never", "narrow", "now",
+"nod", "operation", "opera", "oars", "oat", "okay", "odd", "person", "perfect", "pear", "please", "papers", "popular", "pairs", "pocket", "poach",
+"query", "queue", "question", "quill", "queer", "right", "rains", "rolls", "ridge", "ropes", "reins", "rake", "radical", "really", "rookie", 
+"smart", "smear", "soap", "sapling", "same", "socks", "smells", "saw", "soaks", "selling", "sunscreen", "socket", "tears", "tall", "top", "tar", 
+"taps", "tackle", "temper", "tip", "thunder", "thing", "there", "their", "the", "that", "thorns", "tanks", "under", "unlikely", "utility",
+"understood", "undefined", "users", "upper", "versus", "volleyball", "vulture", "vacant", "vacation", "vary", "words", "works", "wear", "whenever",
+"where", "walls", "war", "ways", "willingly", "winking", "went", "xylophone", "yes", "yams", "yards", "years", "yelling", "zebra", "zero"))
 
 gameboard = ["    ...........    ","    ..._____...    ", "    ..|.....|..    ", "    ........|..    ", "    ........|..    ", "    ........|..    ", "    ........|..    ", "    ‾‾‾‾‾‾‾‾‾‾‾    "]
 wrongletters = [" "]
