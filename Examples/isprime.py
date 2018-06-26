@@ -1,3 +1,6 @@
+#-*- coding: utf-8 -*-
+__author__ = 'Daniel Babnigg (daniel@babnigg.com)'
+
 num = int(input("Number? "))
 isprime = True
 divisor = 0

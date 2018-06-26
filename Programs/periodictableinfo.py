@@ -1,3 +1,6 @@
+#-*- coding: utf-8 -*-
+__author__ = 'Daniel Babnigg (daniel@babnigg.com)'
+
 print ("""
 Welcome, enter your element below.""")
 element = (input())
@@ -63,7 +66,7 @@ elif (element == "Magnesium" or element == "Mg"):
     c = "Gas"
     d = "20.180"
 else:
-    print ("Invalid Element"())
+    print ("Invalid Element")
 
 print("""
 Element: %s

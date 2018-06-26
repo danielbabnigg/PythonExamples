@@ -1,3 +1,6 @@
+#-*- coding: utf-8 -*-
+__author__ = 'Daniel Babnigg (daniel@babnigg.com)'
+
 from random import randint
 
 n = randint(1, 99)

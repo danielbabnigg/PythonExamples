@@ -1,3 +1,6 @@
+#-*- coding: utf-8 -*-
+__author__ = 'Daniel Babnigg (daniel@babnigg.com)'
+
 def hotel_cost(nights):
   return (140 * nights)
 

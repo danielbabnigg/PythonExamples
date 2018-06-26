@@ -1,3 +1,6 @@
+#-*- coding: utf-8 -*-
+__author__ = 'Daniel Babnigg (daniel@babnigg.com)'
+
 inputoperation = input("Your equation? ")
 inputoperation = "".join(inputoperation.split())
 inputoperation += "e"

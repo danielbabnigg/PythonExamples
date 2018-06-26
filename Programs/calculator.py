@@ -1,3 +1,6 @@
+#-*- coding: utf-8 -*-
+__author__ = 'Daniel Babnigg (daniel@babnigg.com)'
+
 print ("Available Operations: add, subtract, multiply, divide, square, power")
 operation = (input("Which operation? "))
 

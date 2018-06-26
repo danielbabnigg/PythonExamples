@@ -1,3 +1,6 @@
+#-*- coding: utf-8 -*-
+__author__ = 'Daniel Babnigg (daniel@babnigg.com)'
+
 print ("")
 inputoperation = input("Your equation? ")
 inputoperation1 = "".join(inputoperation.split())
