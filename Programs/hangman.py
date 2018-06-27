@@ -25,10 +25,12 @@ while playagain == True:
     "taps", "tackle", "temper", "tip", "thunder", "thing", "there", "their", "the", "that", "thorns", "tanks", "under", "unlikely", "utility",
     "understood", "undefined", "users", "upper", "versus", "volleyball", "vulture", "vacant", "vacation", "vary", "words", "works", "wear", "whenever",
     "where", "walls", "war", "ways", "willingly", "winking", "went", "xylophone", "yes", "yams", "yards", "years", "yelling", "zebra", "zero"))
+    
     gameboard = ["    ...........    ","    ..._____...    ", "    ..|.....|..    ", "    ........|..    ", "    ........|..    ", "    ........|..    ", "    ........|..    ", "    ‾‾‾‾‾‾‾‾‾‾‾    "]
     wrongletters = [" "]
     wrongwords = [" "]
     correctguesses = []
+
     if len(goalword) == 3:
         letterblanks = "       _ _ _       "
         letterspaces = "       "
