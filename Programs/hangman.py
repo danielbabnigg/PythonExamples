@@ -12,19 +12,41 @@ Welcome to hangmen! To start, guess a letter to see if it's in the goal word.\nI
 playagain = True
 
 while playagain == True:
-    goalword = random.choice(("animal", "art", "aunt", "artwork", "area", "ant", "all", "apple", "beach", "biggest", "best", "better", "bleed", 
-    "bless", "believe", "bell", "boast", "call", "calling", "cause", "cough", "can", "chalk", "close", "cope", "dough", "dark", "dog", "demon", 
-    "deadly", "death", "dolphin", "dial", "done", "dilligent", "elephant", "ears", "eyes", "enter", "entry", "ending", "ellipse", "eating", "epic",
-    "funny", "fantastic", "fan", "fins", "forts", "full", "fill", "fairy", "great", "gears", "games", "goat", "going", "gaps", "gills", "gobble", 
-    "hello", "high", "hill", "hopes", "hooked", "hole", "have", "halves", "hears", "italics", "integer", "ill", "identity", "input", "jungle", 
-    "jiggle", "jury", "jumping", "jaws", "key", "kettle", "kiwi", "lower", "lame", "learn", "lean", "looking", "loops", "lull", "learnt", "lambs", 
-    "money", "much", "merry", "more", "married", "mapping", "meet", "malls", "month", "none", "nope", "name", "near", "never", "narrow", "now",
-    "nod", "operation", "opera", "oars", "oat", "okay", "odd", "person", "perfect", "pear", "please", "papers", "popular", "pairs", "pocket", "poach",
-    "query", "queue", "question", "quill", "queer", "right", "rains", "rolls", "ridge", "ropes", "reins", "rake", "radical", "really", "rookie", 
-    "smart", "smear", "soap", "sapling", "same", "socks", "smells", "saw", "soaks", "selling", "sunscreen", "socket", "tears", "tall", "top", "tar", 
-    "taps", "tackle", "temper", "tip", "thunder", "thing", "there", "their", "the", "that", "thorns", "tanks", "under", "unlikely", "utility",
-    "understood", "undefined", "users", "upper", "versus", "volleyball", "vulture", "vacant", "vacation", "vary", "words", "works", "wear", "whenever",
-    "where", "walls", "war", "ways", "willingly", "winking", "went", "xylophone", "yes", "yams", "yards", "years", "yelling", "zebra", "zero"))
+    goalword = random.choice(("aardvark", "account", "add", "addition", "addiction", "adult", "adventure", "afro", "aged", "again", "aid", "aims", 
+    "always", "albino", "and", "aunt", "ant", "apes", "apply", "aqueous", "artwork", "armies", "around", "arrows", "asterisk", "ate", "aurora", 
+    "available", "avoid", "awe", "axis", "barefoot", "barely", "barista", "barns", "bars", "babies", "bakery", "best", "bet", "bends", "bears", 
+    "beans", "been", "below", "bees", "bells", "biggest", "bills", "bias", "bisque", "biology", "bin", "bleeding", "bloated", "black", "bless",
+    "body", "boar", "boulder", "boards", "bowling", "bows", "brown", "browse", "bronze", "bread", "building", "bulls", "buds", "call", "calling", 
+    "cause", "can", "cars", "cannon", "cake", "cells", "chill", "charred", "cherry", "cheese", "chokes", "chalk", "circle", "close", "clean",
+    "clasps", "clears", "closely", "cope", "coarse", "cotton", "cross", "crows", "crops", "crane", "crawfish", "curry", "cubes", "cyan", "dark",
+    "dares", "date", "days", "deadly", "delicious", "decrease", "deer", "defined", "diligent", "dill", "dial", "document", "dolphin", "dread",
+    "drown", "drawing", "drain", "droids", "droplets", "dual", "dull", "duckling", "ears", "eat", "ecology", "education", "efficient", "eggs",
+    "ego", "elephant", "elk", "enter", "enough", "enable", "epic", "equal", "equality", "error", "erosion", "escalate", "every", "extra", "eyes",
+    "far", "fairy", "fair", "factual", "fast", "fears", "ferry", "feel", "fill", "figs", "float", "flee", "flawless", "floor", "foggy", "for",
+    "free", "frail", "from", "future", "funny", "fumes", "full", "fuss", "games", "gaps", "gas", "get", "gears", "gel", "geography", "ghost",
+    "gills", "girls", "glory", "glamorous", "glean", "glossy", "gnome", "gnarly", "gore", "goats", "goes", "grape", "grasp", "halves", "have",
+    "hall", "heading", "heads", "heroes", "heaps", "hearing", "hills", "hit", "hopes", "hoax", "hoses", "horses", "hook", "holes", "hug", "hyena",
+    "icy", "ideal", "idol", "identity", "ill", "imagine", "image", "integer", "inner", "input", "instantly", "instant", "italics", "ivy", "jars",
+    "jaws", "jade", "jets", "jingle", "jolly", "jungle", "jury", "jumping", "juices", "just", "kettle", "keys", "kiss", "kind", "kiwi", "knowing",
+    "knack", "knot", "lame", "lambs", "lastly", "ladder", "leaves", "leading", "lead", "learning", "leap", "lesson", "light", "liability", "lies",
+    "lists", "lick", "loop", "load", "loose", "logs", "luster", "made", "malls", "married", "mapping", "mass", "maybe", "message", "messy", "met",
+    "meat", "meal", "melon", "meaning", "men", "milk", "missing", "mill", "middle", "minute", "microphone", "more", "money", "mossy", "module",
+    "mopping", "much", "muddy", "must", "muffle", "mugs", "mystery", "name", "narrow", "navy", "never", "neptune", "near", "needs", "nine", "nope",
+    "none", "nods", "oats", "oars", "oasis", "object", "odd", "off", "often", "ogre", "omelette", "opera", "operation", "opposite", "oppose",
+    "opening", "ores", "oxen", "patience", "papers", "pairs", "pages", "passing", "peach", "pears", "perfect", "peel", "pills", "pies", "picture",
+    "pipeline", "pidgin", "picking", "please", "plus", "plots", "plans", "poach", "positive", "pools", "possible", "prey", "proper", "prance",
+    "previous", "punch", "puff", "pull", "python", "queue", "query", "questions", "quest", "quill", "rains", "rapping", "raspberry", "radical",
+    "really", "real", "resolution", "reef", "reputation", "rhino", "right", "ridge", "risky", "rookie", "roaring", "roses", "rooftop", "rugs",
+    "ruins", "rusty", "sand", "safe", "sadly", "safari", "sapling", "screen", "scary", "scope", "self", "sealing", "second", "segment", "seven",
+    "should", "showing", "single", "sister", "sick", "slowly", "slate", "smear", "smart", "smoke", "snakes", "snowing", "soon", "soaps", "soft",
+    "solidify", "soccer", "spring", "spare", "space", "spikes", "sport", "state", "stars", "stop", "stage", "stall", "staff", "steep", "stack",
+    "summer", "sunscreen", "sustain", "supper", "swear", "tall", "talking", "tails", "tapping", "tavern", "take", "tanning", "tears", "tea",
+    "thing", "thank", "thorns", "thesis", "tinker", "tip", "total", "toads", "totally", "toss", "topping", "toes", "tore", "tollway", "toast",
+    "treasure", "treat", "trees", "troops", "track", "trash", "trains", "tubs", "tunnel", "tuck", "twins", "tweet", "under", "unlikely", "unable",
+    "undefined", "unprepared", "units", "upper", "upset", "upload", "users", "usual", "useless", "utility", "vacation", "vacant", "valley",
+    "vans", "vaccum", "vary", "versus", "vessel", "verbs", "villain", "visable", "viking", "video", "visual", "vulture", "walls", "wars", "waffle",
+    "wake", "waves", "well", "wear", "weapon", "west", "while", "whales", "willing", "winking", "wick", "words", "works", "worse", "wool", "write",
+    "xylophone", "yams", "yards", "yelling", "yellow", "years", "yoyo", "zebra", "zero"))
     
     gameboard = ["    ...........    ","    ..._____...    ", "    ..|.....|..    ", "    ........|..    ", "    ........|..    ", "    ........|..    ", "    ........|..    ", "    ‾‾‾‾‾‾‾‾‾‾‾    "]
     wrongletters = [" "]
@@ -227,7 +249,7 @@ while playagain == True:
             break
     playagainq = (input("\nDo you want to play again? "))
     playagainq = playagainq.lower()
-    if playagainq == "y" or playagainq == "y" or playagainq == "y":
+    if playagainq == "yes" or playagainq == "ye" or playagainq == "y":
         print ("")
         playagain = True
     else:
