@@ -2,7 +2,7 @@
 __author__ = 'Daniel Babnigg (daniel@babnigg.com)'
 
 print ("Available Operations: add, subtract, multiply, divide, square, power")
-operation = (input("Which operation? "))
+operation = (input("Which operation??? "))
 
 if (operation == "addition" or operation == "add"):
     num1 = (input("First number? "))
